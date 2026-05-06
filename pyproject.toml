@@ -1,0 +1,27 @@
+[project]
+name = "dyco"
+version = "2.0.3"
+description = "Dynamic lag compensation"
+authors = [
+    { name = "Lukas Hörtnagl", email = "lukas.hoertnagl@usys.ethz.ch" }
+]
+readme = "README.md"
+# 修改点1：明确支持 3.13
+requires-python = ">=3.11"
+dependencies = [
+    # 修改点2：放宽 pandas 限制，允许未来版本（3.13 可能需要 pandas 3.0+）
+    "pandas>=2.2.3",
+    "matplotlib>=3.8.3",
+    "scipy>=1.14.0",
+    # 修改点3：移除 diive 的严格版本限制，让 uv 自动解决兼容 3.13 的版本
+    "diive"
+]
+
+[build-system]
+# uv 完美支持 poetry-core，无需更改，或者你可以换成 hatchling
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+# 保留 dev 依赖组，uv 也能识别
+[tool.poetry.group.dev.dependencies]
+pytest = "*"
