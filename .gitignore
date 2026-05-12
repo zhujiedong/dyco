@@ -129,3 +129,11 @@ dmypy.json
 /first_figure.html
 example/_example.py
 
+
+# DYCO output
+output/
+output_example/
+
+# DeepSeek TUI
+.deepseek/
+package-tree.md
