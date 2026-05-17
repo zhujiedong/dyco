@@ -137,3 +137,14 @@ output_example/
 # DeepSeek TUI
 .deepseek/
 package-tree.md
+
+# ignore ghg
+[Gg][Hh][Gg]*/
+!ghg.py
+# GHG processing output
+output_ghg/
+output_ghg_input/
+GHG_Output/
+output_ghg2/
+output_ghg2_input/
+GHG_Output2/
