@@ -5,7 +5,7 @@ from typing import List
 
 from .config import DycoConfig
 from .pipeline import DycoPipeline
-from .types import PipelineResult
+from .models import PipelineResult
 
 from .discovery import RegexFileDiscovery
 from .io import CsvReader

@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 from scipy.signal import find_peaks
 
-from ..types import Segment, LagSearchResult
+from ..models import Segment, LagSearchResult
 from ..protocols import LagSearcher
 
 

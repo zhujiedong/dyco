@@ -2,7 +2,7 @@ from typing import Protocol, runtime_checkable, List
 from pathlib import Path
 import pandas as pd
 
-from .types import FileMetadata, Segment, LagSearchResult, AnalysisResult, PipelineResult
+from .models import FileMetadata, Segment, LagSearchResult, AnalysisResult, PipelineResult
 
 
 @runtime_checkable

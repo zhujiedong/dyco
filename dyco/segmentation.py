@@ -2,7 +2,7 @@ from typing import List
 
 import pandas as pd
 
-from .types import FileMetadata, Segment
+from .models import FileMetadata, Segment
 
 
 class TimeBasedSegmenter:

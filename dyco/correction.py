@@ -2,7 +2,7 @@ from typing import List
 
 import pandas as pd
 
-from .types import FileMetadata
+from .models import FileMetadata
 
 
 class PandasShiftCorrector:

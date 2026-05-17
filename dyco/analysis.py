@@ -3,7 +3,7 @@ from typing import List, Optional
 import numpy as np
 import pandas as pd
 
-from .types import LagSearchResult, AnalysisResult
+from .models import LagSearchResult, AnalysisResult
 
 
 class AggregateAnalyzer:

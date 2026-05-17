@@ -8,7 +8,7 @@ from typing import List, Optional
 import pandas as pd
 
 from .config import DycoConfig
-from .types import FileMetadata, LagSearchResult, PipelineResult
+from .models import FileMetadata, LagSearchResult, PipelineResult
 from .protocols import (
     FileDiscovery,
     DataReader,

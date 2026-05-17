@@ -2,7 +2,7 @@ from typing import List
 
 import numpy as np
 
-from ..types import LagSearchResult
+from ..models import LagSearchResult
 from .peaks import find_prominent_peak
 
 

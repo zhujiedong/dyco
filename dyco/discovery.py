@@ -6,7 +6,7 @@ from typing import List
 import pandas as pd
 
 from .exceptions import NoFilesFoundError
-from .types import FileMetadata
+from .models import FileMetadata
 
 _logger = logging.getLogger(__name__)
 
